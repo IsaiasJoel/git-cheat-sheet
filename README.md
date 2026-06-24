@@ -301,6 +301,10 @@ git log -p <file>
 ```bash
 git log --oneline <origin/master>..<remote/master> --left-right
 ```
+**List commits with details (all branches):**
+```bash
+git log --graph --oneline --decorate --all
+```
 
 **Show who changed what and when:**
 ```bash
