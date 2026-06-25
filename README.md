@@ -284,6 +284,10 @@ git log
 ```bash
 git log --oneline
 ```
+**Show last N commits (one line each):**
+```bash
+git log --oneline -n N
+```
 
 **Show commits by specific author:**
 ```bash
@@ -596,6 +600,20 @@ pick <commit_id>
 squash <commit_id2>
 squash <commit_id3>
 ```
+**Merge n last commits from current branch:**
+```bash
+git rebase -i HEAD~n
+```
+| Acción | Significado                 |
+| ------ | --------------------------- |
+| pick   | Use the same commit         |
+| reword | Change message commit       |
+| squash | Join the commit with the previous one |
+| fixup  | join without preserving message  |
+| drop   | delete commit             |
+
+Press `i` to enter to the insertion mode, then modify the action, press `esc` and write `:wq` to exit.
+If you selected squash action, Git will open another window to combine commit messages. Edit the message and then press `esc`, and finally `:wq`
 
 ---
 
