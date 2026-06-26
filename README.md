@@ -289,6 +289,11 @@ git log --oneline
 git log --oneline -n N
 ```
 
+**Show last N commits (one line each) from a branch:**
+```bash
+git log --oneline -n N [BRANCH_NAME]
+```
+
 **Show commits by specific author:**
 ```bash
 git log --author="username"
