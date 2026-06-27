@@ -432,6 +432,13 @@ git branch -D <branch>
 ```
 > ⚠️ **Warning:** You will lose unmerged changes!
 
+### Branches with files
+**Move files between branches**
+You must be in the branch target
+```bash
+git branch [SOURCE_BRANCH] -- [FILENAME_OR_DIRECTORY]
+```
+
 ### Tags
 
 **Create tag at HEAD:**
