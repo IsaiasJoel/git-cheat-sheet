@@ -515,6 +515,11 @@ git pull <remote> <branch>
 git pull origin master
 ```
 
+**Retrieve changes from the remote by cleaning up branches that have already been deleted:**
+```bash
+git fetch --all --prune
+```
+
 **Pull with rebase:**
 ```bash
 git pull --rebase <remote> <branch>
