@@ -853,6 +853,10 @@ git flow hotfix finish VERSION
 
 ---
 
+### Atomic and Conventional Commits
+<img width="1024" height="1536" alt="Commits atomicos y conventional commits" src="https://github.com/user-attachments/assets/d336c30e-03fb-4fa3-9a38-69c3a0b1a27f" />
+
+
 
 ## 🌍 Other Languages
 
